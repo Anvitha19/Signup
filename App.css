@@ -1,0 +1,128 @@
+.section{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: white;
+  border-radius: 2rem !important;
+}
+.row{
+  background-color: #001F3F;
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 2rem 0 0 2rem;
+}
+.col{
+  align-items: center;
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.heading{
+  color: white;
+  font-size: 40px;
+}
+.para{
+  color: rgb(175, 171, 171);
+}
+.image{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+.content{
+  color: rgb(175, 171, 171);
+  padding-left: 20px;
+}
+/* SignUpForm.css */
+.signup-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-form {
+  max-width: 400px;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+.logo{
+  height: 40px;
+  width: 40px;
+}
+.head{
+  font-size: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.submit-button {
+  background-color: #4b75cf;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #4b75cf;
+}
+.signin-button{
+  color: #4b75cf;
+  border: none;
+  font-size: 15px;
+}
+.back-button {
+  background-color: #4b75cf;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  right: 500px;
+}
+.signin{
+  color: #4b75cf;
+}
+
+.section1{
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  right: 500px;
+  bottom: 150px;
+  background-color: #001F3F;
+  border-radius: 3rem !important;
+}
+.dashboard{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
